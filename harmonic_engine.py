@@ -1,4 +1,4 @@
-#harmonic engine for triad harmonies
+#the harmonic engine for triad harmonies
 
 NOTE_TO_MIDI = {
     "C": 60,

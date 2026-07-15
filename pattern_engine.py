@@ -58,7 +58,7 @@ def generate_patterns(triad, start_time, seconds_per_beat, complexity_level):
         base_start = start_time + beat * seconds_per_beat
 
         if drum_map[beat] == 38:
-            # Snare slightly late for groove (consistantly)
+            # Snare slightly late for groove (consistently)
             offset = 0.012
         else:
             # the kick stable
